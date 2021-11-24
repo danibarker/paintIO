@@ -101,6 +101,7 @@ p {
     margin-left: -83px;
     filter: hue-rotate(261deg);
     width: 60px;
+    background: transparent;
 }
 
 .screenshots {
