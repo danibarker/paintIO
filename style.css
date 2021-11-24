@@ -16,6 +16,49 @@
     color: var(--text-color);
     background-color: var(--background);
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+h1:hover {
+    color: var(--button-hover);
+}
+
+body {
+    padding: 0 20%;
+}
+
+h1 {
+    padding-top: 20px;
+    font-size: 64px;
+    font-family: "Cabin Sketch", cursive;
+}
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: var(--button-hover);
+}
+
+hr {
+    width: 80%;
+    margin: 20px auto 0 auto;
+    background-color: var(--text-color);
+    height: 1px;
+    border: none;
+    border-radius: 20px;
+}
+
+p {
+    text-align: left;
+} 
+
+section {
+    text-align: center;
+}
+
 .who-made-it {
     display: grid;
 }
@@ -58,32 +101,10 @@
     background-color: var(--button-hover);
 }
 
-section {
-    text-align: center;
-}
-
-body {
-    padding: 0 20%;
-}
-
 .how-question {
     font-weight: 600;
     padding-top: 15px;
 }
-h1 {
-    padding-top: 20px;
-    font-size: 64px;
-    font-family: "Cabin Sketch", cursive;
-}
-h2 {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: var(--button-hover);
-}
-p {
-    text-align: left;
-} 
 
 .fab {
     margin-right: 5px;
@@ -122,11 +143,3 @@ p {
     margin: 5px;
 }
 
-hr {
-    width: 80%;
-    margin: 20px auto 0 auto;
-    background-color: var(--text-color);
-    height: 1px;
-    border: none;
-    border-radius: 20px;
-}
