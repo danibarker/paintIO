@@ -103,6 +103,19 @@ p {
     width: 60px;
 }
 
+.screenshots {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.screenshots img {
+    height: 350px;
+    border: 0.5px solid var(--white);
+    border-radius: 20px;
+    margin: 5px;
+}
+
 hr {
     width: 80%;
     margin: 20px auto 0 auto;
