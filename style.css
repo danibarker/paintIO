@@ -137,9 +137,28 @@ section {
 }
 
 .screenshots img {
-    height: 350px;
+    width: 100%;
     border: 5px solid var(--button-hover);
     border-radius: 20px;
     margin: 5px;
 }
 
+.tech-container {
+    display: flex;
+}
+
+.tech-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.tech-list li {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.tech-container p {
+    margin-right: 10px;
+}
